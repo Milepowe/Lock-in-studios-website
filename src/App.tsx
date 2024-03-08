@@ -1,15 +1,25 @@
-import React from 'react';
-import './App.css';
+'use client';
 
-function App() {
+import React from "react";
+import { Card, Flowbite, Footer  } from 'flowbite-react';
+import "./index.css";
+
+export function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1 className="text-3xl font-bold">
-         Work In Progress!
-        </h1>
-      </header>
-    </div>
+    <body>
+      <header className="mx-0 px-0 h-screen">
+    <Card href="#" className=" right-0.5 align-bottom">
+      <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
+        Work in progress
+      </h5>
+      <p className="font-normal text-gray-700 dark:text-gray-400 text-center">
+        this will change one day when some person will finish developing the website
+      </p>
+    </Card>
+    <Footer container className=""></Footer>
+    </header>
+    </body>
+  
   );
 }
 
