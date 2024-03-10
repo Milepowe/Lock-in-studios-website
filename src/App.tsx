@@ -1,25 +1,18 @@
-'use client';
+"use client";
 
 import React from "react";
-import { Card, Flowbite, Footer  } from 'flowbite-react';
+import { Card, Flowbite, Footer } from "flowbite-react";
 import "./index.css";
+import Darkmode from "./random_things/Darkmode";
 
 export function App() {
   return (
     <body>
       <header className="mx-0 px-0 h-screen">
-    <Card href="#" className=" right-0.5 align-bottom">
-      <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
-        Work in progress
-      </h5>
-      <p className="font-normal text-gray-700 dark:text-gray-400 text-center">
-        this will change one day when some person will finish developing the website
-      </p>
-    </Card>
-    <Footer container className=""></Footer>
-    </header>
+        <Darkmode />
+        <h1>random text goes here</h1>
+      </header>
     </body>
-  
   );
 }
 
